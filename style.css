@@ -1,0 +1,308 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            nav {
+                background-color: #2874f0;
+                height: 60px;
+                display: flex;
+                width: 1400px;
+            }
+            
+            .nav1 {
+                width: 200px;
+                height: 60px;
+                background-color: #2874f0;
+                display: inline-block;
+            }
+            
+            .navbar {
+                display: flex;
+            }
+            
+            .logo {
+                height: 22px;
+                margin: 10px 0 auto 0;
+                width: 72px;
+            }
+            
+            .logo-text {
+                color: white;
+                text-decoration: none;
+                clear: left;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 1000;
+                position: absolute;
+                top: 32px;
+                left: 190px;
+                font-size: 0.7rem;
+            }
+            
+            .logo-text:hover {
+                text-decoration: underline;
+            }
+            
+            span {
+                color: #fed330;
+            }
+            
+            form {
+                display: flex;
+            }
+            
+            #search-bar {
+                margin: 10px 0 10px 30px;
+                height: 35px;
+                width: 500px;
+                padding-left: 20px;
+                outline: none;
+                border: none;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bolder;
+                border-radius: 2px 0 0 2px;
+            }
+            
+            .submit-btn {
+                height: 35px;
+                width: 50px;
+                background-color: white;
+                border: none;
+                margin: 10px 30px 10px 0;
+                border-radius: 0 2px 2px 0;
+            }
+            
+            .search-icon {
+                height: 20px;
+                width: 20px;
+            }
+            
+            .log-in {
+                height: 30px;
+                width: 115px;
+                margin: 13px 15px;
+                text-align: center;
+                background-color: white;
+                border: none;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.1rem;
+                color: #2874f0;
+            }
+            
+            .log-in:hover {
+                cursor: pointer;
+            }
+            
+            .nav-item {
+                color: white;
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                margin: 18px 30px;
+                font-weight: bold;
+            }
+            
+            .cart {
+                height: 20px;
+                width: 20px;
+                position: absolute;
+                left: 1300px;
+                top: 18px;
+            }
+            
+            main {
+                background-color: #f1f3f6;
+                /* height: 100vh; */
+                margin-top: 10px;
+            }
+            
+            .main-img {
+                margin: 5px;
+                width: 1511px;
+            }
+            
+            .deals {
+                background-color: white;
+                width: 1250px;
+                height: 400px;
+                margin-left: 10px;
+            }
+            
+            .deals-title {
+                font-family: 'Roboto', sans-serif;
+                padding: 20px;
+                border-bottom: 2px solid #dfe4ea;
+            }
+            
+            .view-all {
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                background-color: #2874f0;
+                color: white;
+                position: relative;
+                left: 1100px;
+                bottom: 50px;
+                font-size: 0.9rem;
+                padding: 10px;
+                border-radius: 3px;
+            }
+            
+            .products {
+                height: 400px;
+                width: 1250px;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .product-title {
+                font-family: 'Roboto', sans-serif;
+                font-size: .8rem;
+                margin-top: 5px;
+            }
+            
+            .discount {
+                font-family: 'Roboto', sans-serif;
+                margin-top: 5px;
+                font-size: .9rem;
+                color: #388e3c;
+            }
+            
+            .description {
+                margin-top: 5px;
+                color: #8395a7;
+                font-size: .9rem;
+            }
+            
+            .side-img {
+                height: 400px;
+                width: 300px;
+            }
+            
+            .wrapper {
+                display: flex;
+            }
+            
+            .deals-2 {
+                background-color: white;
+                height: 400px;
+                width: 1500px;
+            }
+            
+            .products-2 {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            footer {
+                height: 500px;
+                background-color: #172337;
+            }
+            
+            .footer-box {
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .footer-wrapper1 {
+                width: 900px;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .footer-title {
+                color: #878787;
+                font-size: .8rem;
+                padding-top: 60px;
+                padding-left: 6px;
+            }
+            
+            .footer-title1 {
+                color: #878787;
+                font-size: .8rem;
+                padding-left: 20px;
+            }
+            
+            .footer-link {
+                color: white;
+                text-decoration: none;
+                font-size: .8rem;
+                margin: 5px;
+                text-align: left;
+            }
+            
+            .footer-link:hover {
+                text-decoration: underline;
+            }
+            
+            .footer-box2 {
+                width: 235px;
+                margin-right: 50px;
+            }
+            
+            .footer-box1 {
+                margin-top: 60px;
+                width: 235px;
+                margin-right: 50px;
+                height: 120px;
+                border-left: 1px solid #878787;
+            }
+            
+            .footer-address {
+                color: white;
+                font-size: .8rem;
+                line-height: 1.5;
+                padding-left: 6px;
+                margin-top: 5px;
+            }
+            
+            .footer-address1 {
+                color: white;
+                font-size: .8rem;
+                line-height: 1.5;
+                padding-left: 20px;
+                margin-top: 5px;
+            }
+            
+            .footer-wrapper {
+                display: flex;
+            }
+            
+            .footer-wrapper-2 {
+                display: flex;
+                min-width: 500px;
+            }
+            
+            .bottom {
+                margin-top: 50px;
+                border-top: 1px solid #878787;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            .bottom-link {
+                color: white;
+                text-decoration: none;
+                font-size: .9rem;
+            }
+            
+            .image-link {
+                margin-top: 20px;
+            }
+            
+            .copyright {
+                color: white;
+                margin-top: 20px;
+            }
+            
+            .payments {
+                margin-top: 20px;
+            }
+            
+            .copyright1 {
+                color: white;
+                margin-top: 50px;
+                text-align: center;
+            }
